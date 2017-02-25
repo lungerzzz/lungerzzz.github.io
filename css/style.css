@@ -1,0 +1,262 @@
+body {
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 1200px;
+    font-family: "Tahoma";    
+    text-transform: uppercase;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);	
+}
+
+.main-navigation {
+    height: 56px;
+    position: relative;
+}
+
+.main-navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+    width: 265.5px;
+}
+
+.main-navigation a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 0px;
+    text-align: center;
+    color: black;
+}
+
+.main-navigation li:hover {
+    background-color: #81b3d2;
+    text-decoration: underline;
+}
+
+.main-navigation li:nth-child(2) {
+    margin-right: 138px;
+}
+
+.main-navigation::before {
+    background-image: url(../img/top-logo.png);
+    position: absolute;
+    display: block;
+    height: 70px;
+    width: 138px;
+    content: "";
+    background-repeat: no-repeat;
+    z-index: 100px;
+    left: 531px;    
+}
+
+header img {
+    margin-bottom: 55px;
+}
+
+.title h2,
+.title p{
+    margin: 0;
+    padding: 0;
+}
+
+.title h2 {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.title p {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;    
+    margin-bottom: 55px;       
+    color: #7d7d7d;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.reason-text {
+    width: 270px;
+    background-color: #81b3d2;
+    color: white;
+    padding: 50px 65px;
+    text-align: center;
+	line-height: 21px;
+}
+.reason1-left {
+    float: left;
+}
+
+.reason-text h2 {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.reason-text span,
+.reason-text p {
+    font-size: 14px;
+}
+
+.reason-text p {
+    margin-top: 26px;
+    margin-bottom: 0px;
+}
+
+.reason1-bottom {
+	margin-top: -3px;
+}
+.reason1-bottom ul {
+    list-style-type: none;   
+    margin: 0;
+    padding: 0;
+}
+
+.reason1-bottom ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.reason1-bottom li {
+    float: left;
+    width: 270px;
+    text-align: center;
+    padding: 85px 65px;
+    padding-top: 160px;
+}
+
+.reason1-bottom li:first-child {
+    background-image: url(../img/logo-home.png);
+    background-repeat: no-repeat;
+    background-position: top 60px center;
+}
+
+.reason1-bottom li:nth-child(2) {
+    background-image: url(../img/logo-food.png);
+    background-repeat: no-repeat;
+    background-position: top 60px center;
+}
+
+.reason1-bottom li:last-child {
+    background-image: url(../img/logo-presents.png);
+    background-repeat: no-repeat;
+    background-position: top 60px center;
+}
+
+.reason1-bottom h2 {
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.reason1-bottom p {
+    font-size: 14px;    
+    color: #7d7d7d;
+    margin: 0;
+}
+
+.reason2-right {
+    float: right;
+}
+
+.reason2-bottom {
+	margin-top: -3px;
+}
+
+.reason2-bottom ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.reason2-bottom li {
+	float: left;
+	background-color: #eeeeee;
+	color: black;
+}
+
+.reason2-bottom p,
+.reason2-bottom span {
+	color: #7d7d7d;
+}
+
+.interesting {
+	padding: 52px 20px 134px 20px;
+	text-align: center;
+}
+
+.interesting b {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.interesting p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #7d7d7d;
+}
+
+footer {
+	padding: 35px 0;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.footer>li {
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+.footer a {
+	text-decoration: none;
+	color: black;
+	
+}
+.footer>li:first-child {
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
+.social-list li{
+	float: left;
+	margin-right: 6px;
+}
+
+.social-list li:last-child {
+	margin-right: 0px;
+}
+
+.social-list a {
+	height: 48px;
+	width: 46px;
+	display: block;
+}
+
+.social-list {
+	margin: 0 auto;
+}
+
+.footer>li:last-child {
+	vertical-align: middle;
+}
