@@ -52,8 +52,7 @@ body {
     height: 70px;
     width: 138px;
     content: "";
-    background-repeat: no-repeat;
-    z-index: 100px;
+    background-repeat: no-repeat;    
     left: 531px;
 }
 
