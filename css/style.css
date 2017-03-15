@@ -355,24 +355,7 @@ input[type="date"] {
 	margin-top: 24px;
 }
 
-.filter-list .filter-list-checked::before {
-	display: block;
-	position: absolute;
-	width: 22px;
-	height: 22px;
-	content: "";
-	background-image: url(../img/filter-checked.png);
-}
-
-.filter-list .filter-list-notchecked::before {
-	display: block;
-	position: absolute;
-	width: 22px;
-	height: 22px;
-	content: "";
-	background-image: url(../img/filter-notchecked.png);
-}
-
+.filter-list .filter-list-checked::before,
 .filter-list .filter-list-notchecked:hover::before {
 	display: block;
 	position: absolute;
@@ -382,6 +365,7 @@ input[type="date"] {
 	background-image: url(../img/filter-checked.png);
 }
 
+.filter-list .filter-list-notchecked::before,
 .filter-list .filter-list-checked:hover::before {
 	display: block;
 	position: absolute;
@@ -390,6 +374,7 @@ input[type="date"] {
 	content: "";
 	background-image: url(../img/filter-notchecked.png);
 }
+
 
 .filter-list a {
 	position: relative;
@@ -405,16 +390,41 @@ input[type="date"] {
 	padding: 32px 72px;
 }
 
+.sort-left {
+	float: left;
+}
+
+.sort-right {
+	float: right;
+	width: 890px;
+}
 .sort .sort-found {
 	font-size: 21px;
 	line-height: 26px;
+	margin-right: 49px;
+}
+
+.sort-list {
+	padding-top: 3px;
 }
 
 .sort-list li {
 	float: left;
+	margin-right: 33px;
 }
 
-.sort-list {
-	float: right;
-	margin-right: 650px;
+.sort-list li:first-child {
+	font-weight: bold;
+}
+
+.sort-list a,
+.sort-list .active:hover {
+	color: #b1b1b1;
+	border-bottom: 1px dashed #81b3d2;
+}
+
+.sort-list .active,
+.sort-list a:hover{
+	color: #81b3d2;
+	border-bottom: none;
 }
